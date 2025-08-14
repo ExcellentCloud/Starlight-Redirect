@@ -21,7 +21,7 @@ A lightweight and elegant website redirection tool that intelligently detects th
 ## 🚀 Usage / 使用方法
 
 ### 1. Setup / 安装
-1. **Clone the Repository / 克隆仓库**:
+**Clone the Repository / 克隆仓库**:
    ```bash
    git clone https://github.com/your-username/starlight-redirect.git
    cd starlight-redirect
