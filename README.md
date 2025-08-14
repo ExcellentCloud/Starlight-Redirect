@@ -22,7 +22,7 @@ A lightweight and elegant website redirection tool that intelligently detects th
 
 :heavy_check_mark: **Open Source / 开源**: Well-documented code with detailed comments, inviting community contributions. / 代码注释详细，欢迎社区贡献。
 
-## Project Structure / 项目结构
+## 📚 Project Structure / 项目结构
 
 ```
 starlight-redirect/
@@ -31,7 +31,7 @@ starlight-redirect/
 ├── script.js
 ```
 
-## Start / 开始
+## 🚀 Start / 开始
 
 ### 1.Clone the Repository / 克隆仓库:
 
@@ -91,6 +91,6 @@ const config = {
   - 清除浏览器/DNS缓存：`ipconfig /flushdns`（Windows）或 `sudo dscacheutil -flushcache`（macOS）。
   - 尝试其他DNS（如Google：`8.8.8.8`，Cloudflare：`1.1.1.1`）。
 
-### 🎉Mission accomplished! / 大功告成！
+### 🎉 Mission accomplished! / 大功告成！
 Congratulations on completing the site deployment! / 恭喜你完成了站点部署！
 
