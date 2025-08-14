@@ -40,5 +40,29 @@ Test in modern browsers (Chrome, Firefox, Safari, Edge).
 将 starlight-redirect 文件夹上传到静态服务器（如Vercel、Netlify、GitHub Pages）。确保 index.html 中 style.css 和 script.js 路径正确。在现代浏览器（Chrome、Firefox、Safari、Edge）中测试。
 
 
+### 3. Configuration / 配置
+
+```markdown
+Edit the `config` object in `script.js` to customize the tool:
+
+在 `script.js` 中编辑 `config` 对象以自定义工具：
+
+```javascript
+const config = {
+    siteTitle: '网站跳转检测', // Site title / 网站标题
+    sites: [ // List of sites to test / 检测站点列表
+        { url: 'https://www.baidu.com', name: '百度主页', icon: 'fa-solid fa-rocket' },
+        { url: 'https://image.baidu.com', name: '百度图片', icon: 'fa-solid fa-rocket' },
+        { url: 'https://news.baidu.com', name: '百度新闻', icon: 'fa-solid fa-rocket' }
+    ],
+    backgroundType: 'color', // 'color' or 'image' / 背景类型：'color' 或 'image'
+    backgroundColor: '#000000', // Background color / 背景颜色
+    backgroundImage: 'https://i2.100024.xyz/2025/07/27/2l5t7e.webp', // Background image URL / 背景图片URL
+    themeColor: '#F0BE96', // Theme color / 主题颜色
+    footerText: 'Powered by <a href="https://t.me/michaelzhu2024">Michael朱</a>', // Footer text / 页脚文本
+    footerLink: 'https://t.me/michaelzhu2024', // Footer link / 页脚链接
+    testRetries: 5, // Number of test retries / 测试重试次数
+    testTimeout: 3000 // Test timeout in ms / 测试超时时间（毫秒）
+};
 
 
