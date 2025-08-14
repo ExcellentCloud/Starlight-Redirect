@@ -26,6 +26,7 @@ A lightweight and elegant website redirection tool that intelligently detects th
    git clone https://github.com/your-username/starlight-redirect.git
    cd starlight-redirect
 
+---
 
 ### 2. Configuration / 配置
 **Edit the `config` object in `script.js` to customize the tool:
