@@ -21,18 +21,16 @@ A lightweight and elegant website redirection tool that intelligently detects th
 ## 🚀 Usage / 使用方法
 
 ### 1. Setup / 安装
-### **Clone the Repository / 克隆仓库**:
+**Clone the Repository / 克隆仓库**:
    ```bash
    git clone https://github.com/your-username/starlight-redirect.git
    cd starlight-redirect
 
 
 ### 2. Configuration / 配置
+**Edit the `config` object in `script.js` to customize the tool:
 
-
-Edit the `config` object in `script.js` to customize the tool:
-
-在 `script.js` 中编辑 `config` 对象以自定义工具：
+在 `script.js` 中编辑 `config` 对象以自定义工具：**
 
 ```javascript
 const config = {
