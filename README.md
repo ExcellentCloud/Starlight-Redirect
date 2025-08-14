@@ -17,21 +17,10 @@ A lightweight and elegant website redirection tool that intelligently detects th
 ## 项目结构
 
 ```
-src/
-├── api/                # API接口
-├── assets/             # 静态资源
-│   └── styles/         # 样式文件
-│       ├── base/       # 基础样式
-│       ├── components/ # 组件样式
-│       └── layouts/    # 布局样式
-├── components/         # 公共组件
-├── composables/        # 组合式API
-├── i18n/               # 国际化
-│   └── locales/        # 语言包
-├── router/             # 路由配置
-├── store/              # Vuex存储
-├── utils/              # 工具函数
-└── views/              # 页面视图
+starlight-redirect/
+├── index.html
+├── style.css
+├── script.js
 ```
 
 ## 开始使用
