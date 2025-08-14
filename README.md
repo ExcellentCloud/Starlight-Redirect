@@ -22,7 +22,7 @@ A lightweight and elegant website redirection tool that intelligently detects th
 
 ### 1. Setup / 安装
 **Clone the Repository / 克隆仓库**:
-   ```bash
+   
    git clone https://github.com/your-username/starlight-redirect.git
    cd starlight-redirect
 
