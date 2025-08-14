@@ -31,7 +31,7 @@ starlight-redirect/
 ├── script.js
 ```
 
-## 开始使用
+## Start / 开始
 
 ### 1.Clone the Repository / 克隆仓库:
 
@@ -92,5 +92,5 @@ const config = {
   - 尝试其他DNS（如Google：`8.8.8.8`，Cloudflare：`1.1.1.1`）。
 
 ### 🎉Mission accomplished! / 大功告成！
-恭喜你
+Congratulations on completing the site deployment! / 恭喜你完成了站点部署！
 
