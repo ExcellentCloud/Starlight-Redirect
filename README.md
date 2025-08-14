@@ -44,7 +44,6 @@ Test in modern browsers (Chrome, Firefox, Safari, Edge).
 Edit the `config` object in `script.js` to customize the tool:
 
 在 `script.js` 中编辑 `config` 对象以自定义工具：
-
 const config = {
     siteTitle: '网站跳转检测', // Site title / 网站标题
     sites: [ // List of sites to test / 检测站点列表
@@ -64,7 +63,6 @@ const config = {
 
 ### 3. Testing / 测试
 
-```markdown
 - **Local Testing / 本地测试**:
   - Open `index.html` in a browser to verify functionality.
   - Check console logs (F12) for debugging.
