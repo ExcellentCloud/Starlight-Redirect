@@ -28,7 +28,8 @@ starlight-redirect/
 ### **Clone the Repository / 克隆仓库**:
 
 ```bash
-npm install
+   git clone https://github.com/your-username/starlight-redirect.git
+   cd starlight-redirect
 ```
 
 ### 开发环境运行
