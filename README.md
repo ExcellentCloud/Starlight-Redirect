@@ -8,8 +8,7 @@ A lightweight and elegant website redirection tool that intelligently detects th
 
 ## ✨ Features / 功能亮点
 
-:heavy_check_mark: **Intelligent Site Detection / 智能站点检测**: Automatically tests multiple sites (e.g., Baidu homepage, images, news) and redirects to the fastest one based on latency.
-自动检测多个站点（如百度主页、图片、新闻），根据延迟跳转到最快站点。
+:heavy_check_mark: **Intelligent Site Detection / 智能站点检测**: Automatically tests multiple sites (e.g., Baidu homepage, images, news) and redirects to the fastest one based on latency. / 自动检测多个站点（如百度主页、图片、新闻），根据延迟跳转到最快站点。
 
 :heavy_check_mark: **Customizable Themes / 可自定义主题**: Default peach theme color (`#F0BE96`) and black background (`#000000`), with support for custom colors and image backgrounds. / 默认桃色主题（`#F0BE96`）和纯黑背景（`#000000`），支持自定义颜色和图片背景。
 
