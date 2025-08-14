@@ -25,14 +25,14 @@ starlight-redirect/
 
 ## 开始使用
 
-### **Clone the Repository / 克隆仓库**:
+### 1.Clone the Repository / 克隆仓库:
 
 ```bash
    git clone https://github.com/your-username/starlight-redirect.git
    cd starlight-redirect
 ```
 
-### Deploy / 部署:
+### 2.Deploy / 部署:
 
 ```bash
 Upload the starlight-redirect folder to a static server (e.g., Vercel, Netlify, GitHub Pages).
@@ -42,7 +42,7 @@ Test in modern browsers (Chrome, Firefox, Safari, Edge).
 将 starlight-redirect 文件夹上传到静态服务器（如Vercel、Netlify、GitHub Pages）。确保 index.html 中 style.css 和 script.js 路径正确。在现代浏览器（Chrome、Firefox、Safari、Edge）中测试。
 ```
 
-### Configuration / 配置
+### 3.Configuration / 配置
 Edit the `config` object in `script.js` to customize the tool:
 
 在 `script.js` 中编辑 `config` 对象以自定义工具：
