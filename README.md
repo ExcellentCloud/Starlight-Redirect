@@ -41,8 +41,6 @@ Test in modern browsers (Chrome, Firefox, Safari, Edge).
 
 
 ### 3. Configuration / 配置
-
-```markdown
 Edit the `config` object in `script.js` to customize the tool:
 
 在 `script.js` 中编辑 `config` 对象以自定义工具：
