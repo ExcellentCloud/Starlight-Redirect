@@ -32,10 +32,14 @@ starlight-redirect/
    cd starlight-redirect
 ```
 
-### 开发环境运行
+### Deploy / 部署:
 
 ```bash
-npm run serve
+Upload the starlight-redirect folder to a static server (e.g., Vercel, Netlify, GitHub Pages).
+Ensure style.css and script.js paths are correct in index.html.
+Test in modern browsers (Chrome, Firefox, Safari, Edge).
+
+将 starlight-redirect 文件夹上传到静态服务器（如Vercel、Netlify、GitHub Pages）。确保 index.html 中 style.css 和 script.js 路径正确。在现代浏览器（Chrome、Firefox、Safari、Edge）中测试。
 ```
 
 ### 生产环境构建
