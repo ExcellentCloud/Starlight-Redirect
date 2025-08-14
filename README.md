@@ -28,7 +28,7 @@ A lightweight and elegant website redirection tool that intelligently detects th
 
 2. **Clone the Repository / 克隆仓库**:
    ```bash
-   starlight-redirect/
+   starlight-redirect
 ├── index.html
 ├── style.css
 ├── script.js
