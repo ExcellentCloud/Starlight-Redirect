@@ -2,7 +2,9 @@
 
 ![Screenshot_20250815_011639.jpg](https://youke1.picui.cn/s1/2025/08/15/689e1af74c1e7.jpg)
 
-A lightweight and elegant website redirection tool that intelligently detects the fastest site and redirects users seamlessly./一个轻量而优雅的网站跳转工具，通过智能检测最快站点，为用户提供无缝导航体验。
+A lightweight and elegant website redirection tool that intelligently detects the fastest site and redirects users seamlessly.
+
+一个轻量而优雅的网站跳转工具，通过智能检测最快站点，为用户提供无缝导航体验。
 
 ## ✨ Features / 功能亮点
 
@@ -33,14 +35,11 @@ starlight-redirect/
 ```
 
 ### 2.Deploy / 部署:
-
-```bash
 Upload the starlight-redirect folder to a static server (e.g., Vercel, Netlify, GitHub Pages).
 Ensure style.css and script.js paths are correct in index.html.
 Test in modern browsers (Chrome, Firefox, Safari, Edge).
 
 将 starlight-redirect 文件夹上传到静态服务器（如Vercel、Netlify、GitHub Pages）。确保 index.html 中 style.css 和 script.js 路径正确。在现代浏览器（Chrome、Firefox、Safari、Edge）中测试。
-```
 
 ### 3.Configuration / 配置
 Edit the `config` object in `script.js` to customize the tool:
