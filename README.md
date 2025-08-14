@@ -86,4 +86,6 @@ const config = {
   - 清除浏览器/DNS缓存：`ipconfig /flushdns`（Windows）或 `sudo dscacheutil -flushcache`（macOS）。
   - 尝试其他DNS（如Google：`8.8.8.8`，Cloudflare：`1.1.1.1`）。
 
-### 🎉Mission accomplished / 大功告成
+### 🎉Mission accomplished! / 大功告成！
+- 不会后悔
+
