@@ -86,5 +86,5 @@ const config = {
   - 尝试其他DNS（如Google：`8.8.8.8`，Cloudflare：`1.1.1.1`）。
 
 ### 🎉Mission accomplished! / 大功告成！
-- 不会后悔
+恭喜你
 
