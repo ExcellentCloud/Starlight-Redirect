@@ -18,14 +18,6 @@ A lightweight and elegant website redirection tool that intelligently detects th
 
 ---
 
-## 📖 Introduction / 简介
-
-**Starlight Redirect** (星光引航) is a beautifully crafted tool designed to enhance web navigation by intelligently selecting the fastest available site for redirection. With a sleek glassmorphism UI, customizable themes (default: peach `#F0BE96`, black background `#000000`), and support for image backgrounds, it offers both functionality and aesthetics. Optimized for the Chinese internet environment, it ensures reliable performance with Font Awesome 6 icons (`fa-solid fa-rocket`) and robust latency testing. Ideal for developers and users seeking a seamless, visually appealing redirection experience.
-
-**星光引航** 是一个精心设计的网站跳转优化工具，通过智能检测多个站点的响应速度，自动选择最优路径进行跳转。采用现代化的玻璃态设计，默认桃色主题（`#F0BE96`）和纯黑背景（`#000000`），支持自定义图片背景，确保视觉与功能的完美融合。针对中国大陆网络环境优化，使用可靠的CDN加载Font Awesome 6图标（`fa-solid fa-rocket`），并提供稳健的延迟测试。适合追求极致性能与美学的开发者和用户。
-
----
-
 ## 🚀 Usage / 使用方法
 
 ### 1. Setup / 安装
