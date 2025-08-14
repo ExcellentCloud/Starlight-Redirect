@@ -25,7 +25,8 @@ A lightweight and elegant website redirection tool that intelligently detects th
    ```bash
    git clone https://github.com/your-username/starlight-redirect.git
    cd starlight-redirect
-2.starlight-redirect/
-├── index.html
-├── style.css
-├── script.js
+
+2. **Clone the Repository / 克隆仓库**:
+   ```bash
+   git clone https://github.com/your-username/starlight-redirect.git
+   cd starlight-redirect
