@@ -45,7 +45,6 @@ Edit the `config` object in `script.js` to customize the tool:
 
 在 `script.js` 中编辑 `config` 对象以自定义工具：
 
-```javascript
 const config = {
     siteTitle: '网站跳转检测', // Site title / 网站标题
     sites: [ // List of sites to test / 检测站点列表
