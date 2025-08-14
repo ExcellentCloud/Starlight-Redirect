@@ -1,6 +1,6 @@
 # Starlight Redirect / 星光引航
 
-[![t40Np.th.jpeg](https://i.imgs.ovh/2025/08/15/t40Np.th.jpeg)](https://imgloc.com/image/t40Np)
+![Screenshot_20250815_011639.jpg](https://youke1.picui.cn/s1/2025/08/15/689e1af74c1e7.jpg)
 
 A lightweight and elegant website redirection tool that intelligently detects the fastest site and redirects users seamlessly. / 一个轻量而优雅的网站跳转工具，通过智能检测最快站点，为用户提供无缝导航体验。
 
