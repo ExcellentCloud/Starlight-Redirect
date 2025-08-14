@@ -2,9 +2,7 @@
 
 ![Screenshot_20250815_011639.jpg](https://youke1.picui.cn/s1/2025/08/15/689e1af74c1e7.jpg)
 
-# A lightweight and elegant website redirection tool that intelligently detects the fastest site and redirects users seamlessly.
-
-## 一个轻量而优雅的网站跳转工具，通过智能检测最快站点，为用户提供无缝导航体验。
+A lightweight and elegant website redirection tool that intelligently detects the fastest site and redirects users seamlessly./一个轻量而优雅的网站跳转工具，通过智能检测最快站点，为用户提供无缝导航体验。
 
 ## ✨ Features / 功能亮点
 
