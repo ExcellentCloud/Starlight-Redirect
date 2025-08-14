@@ -25,7 +25,7 @@ starlight-redirect/
 
 ## 开始使用
 
-### 安装依赖
+### **Clone the Repository / 克隆仓库**:
 
 ```bash
 npm install
