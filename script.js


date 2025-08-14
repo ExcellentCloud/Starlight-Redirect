@@ -1,0 +1,216 @@
+// 用户配置：所有需要修改的配置项集中在此
+const config = {
+    // 站点标题：显示在页面标题和主标题
+    // 修改方法：更改为你的网站标题
+    siteTitle: '网站跳转检测',
+
+    // 检测站点列表：包含URL、显示名称和Font Awesome图标
+    // 修改方法：替换url、name和icon
+    // - url：要检测的站点地址，确保可访问
+    // - name：按钮显示的名称
+    // - icon：Font Awesome图标类，可从https://fontawesome.com/icons查找
+    sites: [
+        { url: 'https://www.baidu.com', name: '百度主页', icon: 'fa-solid fa-rocket' },
+        { url: 'https://image.baidu.com', name: '百度图片', icon: 'fa-solid fa-rocket' },
+        { url: 'https://news.baidu.com', name: '百度新闻', icon: 'fa-solid fa-rocket' }
+    ],
+
+    // 背景类型：'color'（纯色）或'image'（图片）
+    // 修改方法：选择'color'或'image'，并设置相应的backgroundColor或backgroundImage
+    backgroundType: 'color',
+
+    // 纯色背景：当backgroundType为'color'时使用
+    // 修改方法：替换为CSS颜色值（如'#000000'、'red'、'rgb(255, 0, 0)'）
+    backgroundColor: '#000000',
+
+    // 背景图片：当backgroundType为'image'时使用
+    // 修改方法：替换为中国大陆可访问的图片URL
+    // 示例：'https://i2.100024.xyz/2025/07/27/2l5t7e.webp'
+    backgroundImage: 'https://i2.100024.xyz/2025/07/27/2l5t7e.webp',
+
+    // 主题颜色：应用于标题、按钮、进度条等
+    // 修改方法：替换为CSS颜色值（如'#F0BE96'、'blue'、'rgb(255, 165, 0)'）
+    themeColor: '#F0BE96',
+
+    // 版权信息：显示在页面底部
+    // 修改方法：更改为你的版权文本，支持HTML（如添加<a>链接）
+    footerText: 'Powered by <a href="https://t.me/michaelzhu2024">Michael朱</a>',
+
+    // 版权链接：用于Powered by部分的超链接
+    // 修改方法：替换为你的网站链接
+    footerLink: 'https://t.me/michaelzhu2024',
+
+    // 测试重试次数：每次站点的测试次数，建议3-5次
+    testRetries: 5,
+
+    // 测试超时时间（毫秒）：单次请求的最大等待时间
+    testTimeout: 3000
+};
+
+// 初始化配置：设置标题、背景、主题颜色和版权
+document.getElementById('site-title').textContent = config.siteTitle;
+document.getElementById('site-header').textContent = config.siteTitle;
+document.getElementById('footer').innerHTML = config.footerText;
+// 设置背景：根据backgroundType选择纯色或图片
+document.body.style.background = config.backgroundType === 'color'
+    ? config.backgroundColor
+    : `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('${config.backgroundImage}') no-repeat center center fixed`;
+document.body.style.backgroundSize = config.backgroundType === 'image' ? 'cover' : 'auto';
+// 设置主题颜色
+document.documentElement.style.setProperty('--theme-color', config.themeColor);
+document.documentElement.style.setProperty('--theme-gradient', `linear-gradient(90deg, ${config.themeColor}, #F7D4B6)`);
+
+// 获取DOM元素
+const status = document.querySelector('.status');
+const progressFill = document.getElementById('progress-fill');
+const progressText = document.getElementById('progress-text');
+const siteList = document.getElementById('site-list');
+let isRedirecting = false; // 防止重复跳转
+
+// 防抖函数：防止按钮快速重复点击
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(this, args), wait);
+    };
+}
+
+// 渲染站点按钮
+function renderSiteButtons() {
+    siteList.innerHTML = ''; // 清空现有按钮
+    config.sites.forEach(site => {
+        const button = document.createElement('button');
+        button.className = 'site-button';
+        button.dataset.url = site.url;
+        // 显示图标和站点名称，支持Font Awesome加载失败时的文本回退
+        button.innerHTML = `<i class="${site.icon}" style="display: ${site.icon ? 'inline-block' : 'none'}"></i> ${site.name}`;
+        button.title = site.name; // 鼠标悬停提示
+        siteList.appendChild(button);
+        // 添加点击事件，300ms防抖
+        button.addEventListener('click', debounce(() => {
+            if (!isRedirecting) {
+                isRedirecting = true;
+                button.disabled = true;
+                window.location.href = site.url;
+            }
+        }, 300));
+    });
+}
+
+// 测试站点延迟：使用fetch（no-cors）和Image对象双重测试
+async function testSiteLatency(url, retries = config.testRetries, timeout = config.testTimeout) {
+    let latencies = [];
+
+    // 优先使用fetch测试
+    for (let i = 0; i < retries; i++) {
+        try {
+            const controller = new AbortController();
+            const timeoutId = setTimeout(() => controller.abort(), timeout);
+            const start = performance.now();
+
+            // 使用GET请求，no-cors模式
+            const response = await fetch(url, {
+                mode: 'no-cors',
+                cache: 'no-store',
+                signal: controller.signal
+            });
+
+            clearTimeout(timeoutId);
+            const latency = performance.now() - start;
+
+            // 检查响应状态（no-cors模式返回opaque，但仍视为成功）
+            if (response.type === 'opaque' || response.ok) {
+                latencies.push(latency);
+            } else {
+                console.warn(`无法访问 ${url} (尝试 ${i + 1}/${retries}): 响应状态 ${response.status}`);
+            }
+        } catch (error) {
+            console.warn(`无法访问 ${url} (尝试 ${i + 1}/${retries}): ${error.message}`);
+        }
+    }
+
+    // 如果fetch全部失败，尝试Image对象测试
+    if (latencies.length === 0) {
+        for (let i = 0; i < retries; i++) {
+            try {
+                const img = new Image();
+                const start = performance.now();
+                const promise = new Promise((resolve, reject) => {
+                    img.onload = () => resolve(performance.now() - start);
+                    img.onerror = () => reject(new Error('Image load failed'));
+                    img.src = `${url}?t=${Date.now()}`; // 添加时间戳避免缓存
+                });
+
+                const timeoutPromise = new Promise((_, reject) => {
+                    setTimeout(() => reject(new Error('Image timeout')), timeout);
+                });
+
+                const latency = await Promise.race([promise, timeoutPromise]);
+                latencies.push(latency);
+            } catch (error) {
+                console.warn(`Image测试无法访问 ${url} (尝试 ${i + 1}/${retries}): ${error.message}`);
+            }
+        }
+    }
+
+    // 返回平均延迟
+    if (latencies.length > 0) {
+        const avgLatency = latencies.reduce((sum, val) => sum + val, 0) / latencies.length;
+        return { latency: avgLatency, error: null };
+    }
+    return { latency: Infinity, error: '所有尝试均失败' };
+}
+
+// 检测最快站点并更新进度
+async function findFastestSite() {
+    status.textContent = '正在检测最优站点...';
+    progressFill.style.width = '0%';
+    progressText.textContent = '检测中: 0%';
+
+    const totalSites = config.sites.length;
+    let completedSites = 0;
+
+    // 并行测试所有站点的延迟
+    const results = await Promise.all(config.sites.map(async (site) => {
+        const result = await testSiteLatency(site.url);
+        completedSites++;
+        // 计算进度百分比（3个站点时为33%、67%、100%）
+        const progress = Math.round((completedSites / totalSites) * 100);
+        progressFill.style.transition = 'width 0.5s ease-out';
+        progressFill.style.width = `${progress}%`;
+        progressText.textContent = `检测中: ${progress}%`;
+        return { ...site, ...result };
+    }));
+
+    // 筛选可访问的站点
+    const validSites = results.filter(site => site.latency !== Infinity);
+    if (validSites.length > 0) {
+        // 找到延迟最小的站点
+        const fastestSite = validSites.reduce((prev, curr) =>
+            prev.latency < curr.latency ? prev : curr
+        );
+        status.textContent = `最优站点: ${fastestSite.name} (延迟: ${fastestSite.latency.toFixed(2)}ms)`;
+        if (!isRedirecting) {
+            isRedirecting = true;
+            // 1秒后跳转到最快站点
+            setTimeout(() => {
+                window.location.href = fastestSite.url;
+            }, 1000);
+        }
+    } else {
+        // 所有站点不可达，仅显示简洁提示
+        status.textContent = '所有站点均不可达，请手动选择！';
+        progressFill.style.width = '0%';
+        progressText.textContent = '检测中: 0%';
+    }
+}
+
+// 初始化：渲染按钮，3秒后开始检测
+renderSiteButtons();
+setTimeout(findFastestSite, 3000);
+
+// 页面卸载时清理跳转标志
+window.addEventListener('beforeunload', () => {
+    isRedirecting = false;
+});
