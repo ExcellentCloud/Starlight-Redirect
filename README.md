@@ -14,7 +14,7 @@ A lightweight and elegant website redirection tool that intelligently detects th
 
 :heavy_check_mark:**Glassmorphism Design / 玻璃态设计**: Modern UI with glassmorphism effects, ensuring a visually appealing experience. / 现代玻璃态效果界面，视觉体验优雅。
 
-**Mobile-Friendly / 移动端适配**: Responsive design optimized for mobile devices with vertical button layout on small screens. / 响应式设计，优化移动端体验，小屏幕上按钮垂直排列。
+:heavy_check_mark:**Mobile-Friendly / 移动端适配**: Responsive design optimized for mobile devices with vertical button layout on small screens. / 响应式设计，优化移动端体验，小屏幕上按钮垂直排列。
 
 **Optimized for China / 中国大陆优化**: Uses reliable CDNs (cdnjs, jsDelivr) for Font Awesome 6 icons and handles network restrictions effectively. / 使用可靠CDN（cdnjs、jsDelivr）加载Font Awesome 6图标，适配中国大陆网络环境。
 
