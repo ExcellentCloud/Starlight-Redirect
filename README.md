@@ -1,4 +1,4 @@
-# Starlight Redirect / 星光引航
+# ⭐Starlight Redirect / 星光引航
 
 ![Screenshot_20250815_011639.jpg](https://youke1.picui.cn/s1/2025/08/15/689e1af74c1e7.jpg)
 
