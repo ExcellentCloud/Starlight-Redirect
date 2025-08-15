@@ -75,7 +75,7 @@ const config = {
 };
 ```
 
-### 3. Testing / 测试
+### 4. Testing / 测试
 
 - **Local Testing / 本地测试**:
   - Open `index.html` in a browser to verify functionality.
