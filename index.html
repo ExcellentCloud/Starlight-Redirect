@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 动态设置页面标题，从JavaScript配置中获取 -->
     <title id="site-title">网站跳转检测</title>
-    <!-- 使用Font Awesome 6.6.0图标库，支持中国大陆访问 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" onload="console.log('Font Awesome 加载成功')" onerror="console.warn('图标加载失败，将使用纯文本显示')">
-    <!-- 备选CDN：jsDelivr -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="none" onload="if(this.media!=='all')this.media='all'" onerror="console.warn('备选CDN加载失败')">
-    <!-- 引入Poppins字体，增加现代感 -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-    <!-- 引入CSS样式 -->
+    <!-- 使用fastly.jsdelivr.net CDN加载Font Awesome 6.6.0 -->
+    <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css" integrity="sha256-3r+0hk4Mpn3wAmC1Z0I8HPn27Y2xJfr5Pwio6Td9GpI=" crossorigin="anonymous" onload="console.log('Font Awesome 加载成功')" onerror="console.warn('图标加载失败，将使用纯文本显示')">
+    <!-- 备选CDN：cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" media="none" onload="if(this.media!=='all')this.media='all'" onerror="console.warn('备选CDN加载失败')">
+    <!-- 延迟加载Poppins字体 -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" media="none" onload="if(this.media!=='all')this.media='all'">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- 主容器：包含标题、状态、进度条、按钮和版权 -->
-    <div class="container">
+    <!-- 国产浏览器提示 -->
+    <div class="browser-warning" id="browser-warning" style="display: none;">
+        <div class="warning-content">
+            <i class="fa-solid fa-rocket warning-icon"></i>
+            <p>请使用Chrome、Edge等浏览器访问以获得最佳体验！</p>
+            <p>Please use Chrome, Edge, or other browsers for the best experience!</p>
+            <div class="warning-links">
+                <a href="https://www.google.com/chrome/" target="_blank">下载 Chrome</a>
+                <a href="https://www.microsoft.com/edge" target="_blank">下载 Edge</a>
+            </div>
+        </div>
+    </div>
+    <!-- 主容器 -->
+    <div class="container" id="main-container">
         <h1 id="site-header">网站跳转检测</h1>
         <div class="status">正在检测最优站点...</div>
         <div class="progress">
@@ -28,7 +38,6 @@
         <div class="site-list" id="site-list"></div>
         <div class="footer" id="footer"></div>
     </div>
-    <!-- 引入JavaScript逻辑 -->
     <script src="script.js"></script>
 </body>
 </html>
