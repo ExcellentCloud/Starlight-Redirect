@@ -94,7 +94,7 @@ const config = {
 
     // 背景图片URL，当backgroundType为'image'时生效，需确保中国大陆可访问
     // Background image URL, used when backgroundType is 'image', ensure accessible in China
-    backgroundImage: 'https://i2.100024.xyz/2025/07/27/2l5t7e.webp',
+    backgroundImage: 'https://t.alcy.cc/ycy',
 
     // 主题颜色，用于按钮、文本、进度条等
     // Theme color, used for buttons, text, progress bar, etc.
