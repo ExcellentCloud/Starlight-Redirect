@@ -11,7 +11,7 @@ const config = {
     ],
     backgroundType: 'color', // 背景类型：'color'（纯色）或'image'（图片）
     backgroundColor: '#000000', // 背景颜色（当backgroundType为'color'时生效）
-    backgroundImage: 'https://i2.100024.xyz/2025/07/27/2l5t7e.webp', // 背景图片URL（当backgroundType为'image'时生效，需中国大陆可访问）
+    backgroundImage: 'https://t.alcy.cc/ycy', // 背景图片URL（当backgroundType为'image'时生效，需中国大陆可访问）
     themeColor: '#F0BE96', // 主题颜色，用于按钮、文本、进度条等
     footerText: 'Powered by <a href="https://t.me/michaelzhu2024">Michael朱</a>', // 页脚文本，支持HTML
     footerLink: 'https://t.me/michaelzhu2024', // 页脚链接
