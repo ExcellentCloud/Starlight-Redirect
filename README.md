@@ -32,9 +32,11 @@ A lightweight and elegant website redirection tool that intelligently detects th
 
 ```
 starlight-redirect/
-├── index.html
-├── style.css
-├── script.js
+├── index.html        # 主页面文件，包含HTML结构和基本布局 / Main page file, contains HTML structure and basic layout
+├── style.css         # 样式文件，定义玻璃态界面和主题样式 / Style file, defines glassmorphism UI and theme styles
+├── script.js         # 脚本文件，包含站点配置、URL混淆和延迟测试逻辑 / Script file, contains site configuration, URL obfuscation, and latency testing logic
+├── .gitignore        # Git忽略文件，排除日志和临时文件 / Git ignore file, excludes logs and temporary files
+├── README.md         # 项目说明文件，包含使用指南和优点 / Project documentation file, includes usage guide and features
 ```
 
 ## 🚀 Start / 开始
