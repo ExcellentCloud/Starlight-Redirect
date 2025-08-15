@@ -38,7 +38,7 @@ const config = {
 
     // 版权链接：用于Powered by部分的超链接
     // 修改方法：替换为你的网站链接
-    footerLink: '',
+    footerLink: 'https://github.com/ExcellentCloud/Starlight-Redirect',
 
     // 测试重试次数：每次站点的测试次数，建议3-5次
     testRetries: 5,
