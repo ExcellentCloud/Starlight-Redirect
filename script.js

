@@ -34,11 +34,11 @@ const config = {
 
     // 版权信息：显示在页面底部
     // 修改方法：更改为你的版权文本，支持HTML（如添加<a>链接）
-    footerText: 'Powered by <a href="https://t.me/michaelzhu2024">Michael朱</a>',
+    footerText: 'Powered by <a href="https://github.com/ExcellentCloud/Starlight-Redirect">Michael朱</a>',
 
     // 版权链接：用于Powered by部分的超链接
     // 修改方法：替换为你的网站链接
-    footerLink: 'https://t.me/michaelzhu2024',
+    footerLink: '',
 
     // 测试重试次数：每次站点的测试次数，建议3-5次
     testRetries: 5,
