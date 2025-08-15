@@ -10,19 +10,23 @@ A lightweight and elegant website redirection tool that intelligently detects th
 
 ## ✨ Features / 功能亮点
 
-:heavy_check_mark: **Intelligent Site Detection / 智能站点检测**: Automatically tests multiple sites (e.g., Baidu homepage, images, news) and redirects to the fastest one based on latency. / 自动检测多个站点（如百度主页、图片、新闻），根据延迟跳转到最快站点。
+:heavy_check_mark: **智能站点检测 / Intelligent Site Detection**: Automatically tests multiple sites (e.g., Baidu homepage, images, news) using `fetch` HEAD requests and redirects to the fastest one based on latency (3 retries, 3s timeout). / 使用`fetch` HEAD请求自动检测多个站点（如百度主页、图片、新闻），根据延迟跳转到最快站点（3次重试，3秒超时）。
 
-:heavy_check_mark: **Customizable Themes / 可自定义主题**: Default peach theme color (`#F0BE96`) and black background (`#000000`), with support for custom colors and image backgrounds. / 默认桃色主题（`#F0BE96`）和纯黑背景（`#000000`），支持自定义颜色和图片背景。
+:heavy_check_mark: **轻量静态设计 / Lightweight Static Design**: Purely static files (`index.html`, `style.css`, `script.js`) for easy deployment on any static server, no backend required. / 纯静态文件（`index.html`、`style.css`、`script.js`），无需后端，轻松部署到任何静态服务器。
 
-:heavy_check_mark: **Glassmorphism Design / 玻璃态设计**: Modern UI with glassmorphism effects, ensuring a visually appealing experience. / 现代玻璃态效果界面，视觉体验优雅。
+:heavy_check_mark: **简单URL混淆 / Simple URL Obfuscation**: Uses base64 encoding to hide URLs in `script.js`, preventing bot scraping while maintaining easy user configuration. / 在`script.js`中使用base64编码隐藏URL，防止机器人抓取，同时保持用户配置简单。
 
-:heavy_check_mark: **Mobile-Friendly / 移动端适配**: Responsive design optimized for mobile devices with vertical button layout on small screens. / 响应式设计，优化移动端体验，小屏幕上按钮垂直排列。
+:heavy_check_mark: **中国大陆优化 / Optimized for China**: Leverages fast CDNs (jsDelivr, cdnjs) and robust latency testing to ensure reliable performance in China’s network environment. / 使用快速CDN（jsDelivr、cdnjs）和可靠延迟测试，确保在中国大陆网络环境下的性能。
 
-:heavy_check_mark: **Optimized for China / 中国大陆优化**: Uses reliable CDNs (cdnjs, jsDelivr) for Font Awesome 6 icons and handles network restrictions effectively. / 使用可靠CDN（cdnjs、jsDelivr）加载Font Awesome 6图标，适配中国大陆网络环境。
+:heavy_check_mark: **浏览器限制 / Browser Restrictions**: Blocks domestic browsers (WeChat, QQ, 360) with an animated rocket prompt, guiding users to Chrome/Edge for optimal experience. / 限制国产浏览器（微信、QQ、360），通过旋转火箭动画引导用户使用Chrome/Edge以获得最佳体验。
 
-:heavy_check_mark: **Robust Latency Testing / 可靠延迟测试**: Combines `fetch` (no-cors) and `Image` object testing with 5 retries and 3-second timeouts for accurate results. / 结合`fetch`（no-cors）和`Image`对象测试，5次重试、3秒超时，确保延迟测试准确。
+:heavy_check_mark: **玻璃态现代化界面 / Glassmorphism Modern UI**: Features a sleek glassmorphism design with customizable themes (default: peach `#F0BE96`, black background `#000000`) and mobile-friendly layout. / 采用玻璃态现代化设计，支持自定义主题（默认：桃色`#F0BE96`，黑色背景`#000000`），适配移动端。
 
-:heavy_check_mark: **Open Source / 开源**: Well-documented code with detailed comments, inviting community contributions. / 代码注释详细，欢迎社区贡献。
+:heavy_check_mark: **用户友好配置 / User-Friendly Configuration**: Unified site and URL settings in `script.js` with detailed Chinese comments for easy editing. / 在`script.js`中统一站点和URL配置，附详细中文注释，方便用户编辑。
+
+:heavy_check_mark: **快速加载 / Fast Loading**: Optimized with compressed files, deferred font loading, and efficient latency testing to minimize load times. / 通过压缩文件、延迟字体加载和高效延迟测试优化，减少加载时间。
+
+:heavy_check_mark: **开源与可扩展 / Open Source & Extensible**: Well-documented code with detailed comments, inviting community contributions for further enhancements. / 代码注释详细，欢迎社区贡献以进一步增强功能。
 
 ⚠️**Please note**: Some of our style codes and usage comments are assisted by generative artificial intelligence. You should double check before using this project in a production environment!
 
