@@ -69,7 +69,7 @@ const config = {
     backgroundImage: 'https://i2.100024.xyz/2025/07/27/2l5t7e.webp', // Background image URL / 背景图片URL
     themeColor: '#F0BE96', // Theme color / 主题颜色
     footerText: 'Powered by <a href="https://t.me/michaelzhu2024">Michael朱</a>', // Footer text / 页脚文本
-    footerLink: 'https://t.me/michaelzhu2024', // Footer link / 页脚链接
+    footerLink: 'https://github.com/ExcellentCloud/Starlight-Redirect', // Footer link / 页脚链接
     testRetries: 5, // Number of test retries / 测试重试次数
     testTimeout: 3000 // Test timeout in ms / 测试超时时间（毫秒）
 };
