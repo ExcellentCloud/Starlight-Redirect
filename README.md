@@ -99,8 +99,6 @@ const config = {
 Congratulations on completing the site deployment! / 恭喜你完成了站点部署！
 
 ## 🤝 Contributing / 参与贡献
-
-```markdown
 1. **Fork the Repository / 分叉仓库**:
    - Fork this repo and create a new branch for your changes.
    - 分叉本仓库并为你的更改创建新分支。
