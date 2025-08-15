@@ -6,6 +6,8 @@ A lightweight and elegant website redirection tool that intelligently detects th
 
 一个轻量而优雅的网站跳转工具，通过智能检测最快站点，为用户提供无缝导航体验。
 
+👋Play
+
 ## ✨ Features / 功能亮点
 
 :heavy_check_mark: **Intelligent Site Detection / 智能站点检测**: Automatically tests multiple sites (e.g., Baidu homepage, images, news) and redirects to the fastest one based on latency. / 自动检测多个站点（如百度主页、图片、新闻），根据延迟跳转到最快站点。
