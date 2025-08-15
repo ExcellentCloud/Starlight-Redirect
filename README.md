@@ -24,6 +24,8 @@ A lightweight and elegant website redirection tool that intelligently detects th
 
 :heavy_check_mark: **Open Source / 开源**: Well-documented code with detailed comments, inviting community contributions. / 代码注释详细，欢迎社区贡献。
 
+⚠️**请注意**: 我们的部分样式代码与使用注释使用了生成式人工智能的辅助，您将该项目用于生产环境前应再三检测！
+
 ## 📚 Project Structure / 项目结构
 
 ```
