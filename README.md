@@ -40,7 +40,7 @@ starlight-redirect/
 ### 1.Clone the Repository / 克隆仓库:
 
 ```bash
-   git clone https://github.com/your-username/starlight-redirect.git
+   git clone https://github.com/ExcellentCloud/starlight-redirect.git
    cd starlight-redirect
 ```
 
