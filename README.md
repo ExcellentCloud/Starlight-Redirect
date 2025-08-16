@@ -28,6 +28,8 @@ A lightweight and elegant website redirection tool that intelligently detects th
 
 :heavy_check_mark: **开源与可扩展 / Open Source & Extensible**: Well-documented code with detailed comments, inviting community contributions for further enhancements. / 代码注释详细，欢迎社区贡献以进一步增强功能。
 
+: **IP地址不支持 / Open Source & Extensible**: Well-documented code with detailed comments, inviting community contributions for further enhancements. / 代码注释详细，欢迎社区贡献以进一步增强功能。
+
 ## 📚 Project Structure / 项目结构
 
 ```
