@@ -62,26 +62,6 @@ Edit the `config` object in `script.js` to customize the tool
 
 在 `script.js` 中编辑 `config` 对象以自定义工具
 
-### 4. Testing / 测试
-
-- **Local Testing / 本地测试**:
-  - Open `index.html` in a browser to verify functionality.
-  - Check console logs (F12) for debugging.
-  - 在浏览器中打开 `index.html` 验证功能。
-  - 检查控制台日志（F12）进行调试。
-- **Network Testing / 网络测试**:
-  - Test in a China-based network to ensure CDN (cdnjs, jsDelivr) and site accessibility.
-  - Use `ping` to verify site connectivity (e.g., `ping www.baidu.com`).
-  - 在中国大陆网络环境中测试，确保CDN（cdnjs、jsDelivr）和站点可访问。
-  - 使用 `ping` 验证站点连通性（如 `ping www.baidu.com`）。
-- **Troubleshooting / 故障排查**:
-  - If "All sites unreachable" appears, check browser console for errors (e.g., timeout, network issues).
-  - Clear browser/DNS cache: `ipconfig /flushdns` (Windows) or `sudo dscacheutil -flushcache` (macOS).
-  - Try alternative DNS (e.g., Google: `8.8.8.8`, Cloudflare: `1.1.1.1`).
-  - 若显示“所有站点均不可达”，检查浏览器控制台错误（如超时、网络问题）。
-  - 清除浏览器/DNS缓存：`ipconfig /flushdns`（Windows）或 `sudo dscacheutil -flushcache`（macOS）。
-  - 尝试其他DNS（如Google：`8.8.8.8`，Cloudflare：`1.1.1.1`）。
-
 ### 🎉 Mission accomplished! / 大功告成！
 Congratulations on completing the site deployment! / 恭喜你完成了站点部署！
 
