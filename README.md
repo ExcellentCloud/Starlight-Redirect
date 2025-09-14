@@ -1,6 +1,6 @@
 # ⭐Starlight Redirect / 星光引航
 
-![Screenshot_20250815_011639.jpg](https://youke1.picui.cn/s1/2025/08/15/689e1af74c1e7.jpg)
+![Screensho](https://img.cdn1.vip/i/68c68e349150a_1757842996.webp)
 
 A lightweight and elegant website redirection tool that intelligently detects the fastest site and redirects users seamlessly.
 
