@@ -162,7 +162,7 @@ Congratulations on completing the site deployment! / 恭喜你完成了站点部
 4. **Code Style / 代码规范**:
    - Follow existing code structure and add detailed comments.
    - 遵循现有代码结构并添加详细注释。
-## 🎖︎贡献者
+## 🎖︎ Contributor / 贡献者
 
 感谢以下贡献者的无私贡献，也欢迎你加入我们一起共建项目！
 
