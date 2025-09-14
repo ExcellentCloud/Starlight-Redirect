@@ -1,4 +1,4 @@
-# ⭐Starlight Redirect / 星光引航
+# ⭐Starlight Redirect--星光引航
 
 ![Screenshot_20250914_174254.jpg](https://s2.loli.net/2025/09/15/mCRKDc4AyJeMvL3.jpg)
 
