@@ -152,19 +152,19 @@ Congratulations on completing the site deployment! / 恭喜你完成了站点部
    - Fork this repo and create a new branch for your changes.
    - 分叉本仓库并为你的更改创建新分支。
 2. **Submit Pull Requests / 提交拉取请求**:
-   - Add features (e.g., advanced obfuscation, proxy support).
+   - Add features.
    - Improve latency testing or UI animations.
    - Fix bugs or optimize backend performance.
-   - 添加功能（如高级混淆、代理支持）。改进延迟测试或界面动画。修复错误或优化后端性能。
+   - 添加功能。改进延迟测试或界面动画。修复错误或优化后端性能。
 3. **Issues / 问题反馈**:
    - Report bugs or suggest enhancements via GitHub Issues.
    - 通过GitHub Issues报告错误或建议改进。
 4. **Code Style / 代码规范**:
    - Follow existing code structure and add detailed comments.
    - 遵循现有代码结构并添加详细注释。
-## 贡献者
+##  贡献者
 
-感谢以下贡献者的贡献。如果您想为本项目做出贡献，请参考 [如何贡献](#如何贡献)。
+感谢以下贡献者的无私贡献，也欢迎你加入我们一起共建项目！
 
 <a href="https://github.com/ExcellentCloud/Starlight-Redirect/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ExcellentCloud/Starlight-Redirect" />
