@@ -153,15 +153,14 @@ Congratulations on completing the site deployment! / 恭喜你完成了站点部
    - 分叉本仓库并为你的更改创建新分支。
 2. **Submit Pull Requests / 提交拉取请求**:
    - Add features.
-   - Improve latency testing or UI animations.
-   - Fix bugs or optimize backend performance.
-   - 添加功能。改进延迟测试或界面动画。修复错误或优化后端性能。
+   - Fix bugs.
+   - 添加功能。修复错误。
 3. **Issues / 问题反馈**:
    - Report bugs or suggest enhancements via GitHub Issues.
    - 通过GitHub Issues报告错误或建议改进。
 4. **Code Style / 代码规范**:
    - Follow existing code structure and add detailed comments.
-   - 遵循现有代码结构并添加详细注释。
+   - 遵循代码结构并添加详细注释。
 ## 🎖︎ Contributor / 贡献者
 
   Thanks to the selfless contributions of the following contributors, and we welcome you to join us in building the project together!/感谢以下贡献者的无私贡献，也欢迎你加入我们一起共建项目！
