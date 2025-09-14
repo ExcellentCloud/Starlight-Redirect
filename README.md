@@ -2,9 +2,9 @@
 
 ![Screenshot_20250914_174254.jpg](https://s2.loli.net/2025/09/15/mCRKDc4AyJeMvL3.jpg)
 
-A lightweight and elegant website redirection tool that intelligently detects the fastest site and redirects users seamlessly.
+  A lightweight and elegant website redirection tool that intelligently detects the fastest site and redirects users seamlessly.
 
-一个轻量而优雅的网站跳转工具，通过智能检测最快站点，为用户提供无缝导航体验。
+  一个轻量而优雅的网站跳转工具，通过智能检测最快站点，为用户提供无缝导航体验。
 
 👋 Demo / 演示：[Start/开始](https://excellentcloud.github.io/Starlight-Redirect/)
 
@@ -164,7 +164,8 @@ Congratulations on completing the site deployment! / 恭喜你完成了站点部
    - 遵循现有代码结构并添加详细注释。
 ## 🎖︎ Contributor / 贡献者
 
-Thanks to the selfless contributions of the following contributors, and we welcome you to join us in building the project together!/感谢以下贡献者的无私贡献，也欢迎你加入我们一起共建项目！
+  Thanks to the selfless contributions of the following contributors, and we welcome you to join us in building the project together!
+  感谢以下贡献者的无私贡献，也欢迎你加入我们一起共建项目！
 
 <a href="https://github.com/ExcellentCloud/Starlight-Redirect/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ExcellentCloud/Starlight-Redirect" />
