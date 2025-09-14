@@ -165,6 +165,7 @@ Congratulations on completing the site deployment! / 恭喜你完成了站点部
 ## 🎖︎ Contributor / 贡献者
 
   Thanks to the selfless contributions of the following contributors, and we welcome you to join us in building the project together!
+
   感谢以下贡献者的无私贡献，也欢迎你加入我们一起共建项目！
 
 <a href="https://github.com/ExcellentCloud/Starlight-Redirect/graphs/contributors">
