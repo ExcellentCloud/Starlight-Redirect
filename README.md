@@ -167,5 +167,3 @@ Congratulations on completing the site deployment! / 恭喜你完成了站点部
 <a href="https://github.com/ExcellentCloud/Starlight-Redirect/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ExcellentCloud/Starlight-Redirect" />
 </a>
-
-Made with [contrib.rocks](https://contrib.rocks).
