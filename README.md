@@ -164,7 +164,7 @@ Congratulations on completing the site deployment! / 恭喜你完成了站点部
 
 感谢以下贡献者的贡献。如果您想为本项目做出贡献，请参考 [如何贡献](#如何贡献)。
 
-<a href="">
+<a href="https://github.com/ExcellentCloud/Starlight-Redirect/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=soybeanjs/soybean-admin" />
 </a>
 
