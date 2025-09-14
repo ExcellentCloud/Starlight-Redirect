@@ -6,7 +6,7 @@ A lightweight and elegant website redirection tool that intelligently detects th
 
 一个轻量而优雅的网站跳转工具，通过智能检测最快站点，为用户提供无缝导航体验。
 
-👋 Demo / 演示站点：[Start](https://excellentcloud.github.io/Starlight-Redirect/)
+👋 Demo / 演示站点：[Start/开始](https://excellentcloud.github.io/Starlight-Redirect/)
 
 ## ✨ Features / 功能亮点
 
