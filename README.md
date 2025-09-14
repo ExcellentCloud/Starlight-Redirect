@@ -160,4 +160,11 @@ Congratulations on completing the site deployment! / 恭喜你完成了站点部
 4. **Code Style / 代码规范**:
    - Follow existing code structure and add detailed comments.
    - 遵循现有代码结构并添加详细注释。
+## 贡献者
+
+感谢以下贡献者的贡献。如果您想为本项目做出贡献，请参考 [如何贡献](#如何贡献)。
+
+<a href="">
+  <img src="https://contrib.rocks/image?repo=soybeanjs/soybean-admin" />
+</a>
 
