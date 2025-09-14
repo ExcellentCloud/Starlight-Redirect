@@ -20,7 +20,7 @@ A lightweight and elegant website redirection tool that intelligently detects th
 
 :heavy_check_mark: **浏览器限制 / Browser Restrictions**: Blocks domestic browsers (WeChat, QQ, 360) with an animated rocket prompt, guiding users to Chrome/Edge for optimal experience. / 限制国产浏览器（微信、QQ、360），通过旋转火箭动画引导用户使用Chrome/Edge以获得最佳体验。
 
-![Screensho](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEB3WtoxpT4mrF_VfTFpDDizc8_Fa8N1gACoRoAArmUOVY9XwWUfLNZ3DYE.jpg)
+![Screenshot_20250914_181006.jpg](https://s2.loli.net/2025/09/15/YmaUkx3iVvApHeL.jpg)
 
 :heavy_check_mark: **玻璃态现代化界面 / Glassmorphism Modern UI**: Features a sleek glassmorphism design with customizable themes (default: peach `#F0BE96`, black background `#000000`) and mobile-friendly layout. / 采用玻璃态现代化设计，支持自定义主题（默认：桃色`#F0BE96`，黑色背景`#000000`），适配移动端。
 
